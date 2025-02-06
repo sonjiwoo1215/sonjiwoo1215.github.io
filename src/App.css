@@ -10,7 +10,7 @@
 #hello {
   display: flex;
   align-items: center;
-  justify-content: flex-start;  /* 왼쪽 정렬 */  /* 이미지와 텍스트 세로 정렬 */
+  justify-content: flex-start;  
   /* text-align: center;   */
   margin-bottom: 1rem;  /* 'ul'과의 간격을 위해 아래 여백 추가 */
 }
