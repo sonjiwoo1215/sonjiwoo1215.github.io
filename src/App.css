@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 7rem;
+  display: flex;
+  align-items: flex-start;  /* 세로로 가운데 정렬 */
+  flex-direction: column;  /* 모든 요소를 세로로 정렬 */
+}
+
+#hello {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  /* 왼쪽 정렬 */  /* 이미지와 텍스트 세로 정렬 */
+  /* text-align: center;   */
+  margin-bottom: 1rem;  /* 'ul'과의 간격을 위해 아래 여백 추가 */
+}
+
+.JiwooImage {
+  height: 13em;
+  width: 10em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  margin-right: 1rem; /* 이미지와 텍스트 간격 조정 */
+}
+
+.JiwooImage:hover {
+  filter: drop-shadow(0 0 2em #f8f7eaaa);
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 1.2;
+  margin: 0; /* 기본 여백 제거 */
+  display: inline-block; /* 텍스트와 a 태그를 가로로 나열하도록 */
+}
+
+a {
+  padding: 5px 0 0 0;
+  text-decoration: none;
+  margin: 0.5rem;
+  color: beige;
+  display: inline-block;  /* a 태그들을 인라인 블록으로 배치 */
+}
+
+ul {
+  /* list-style-type: none;  */
+  padding: 0;
+  margin-top: 1rem;  /* 'ul'과 다른 요소들 간의 간격 조정 */
+}
+
+ul li {
+  margin-bottom: 1rem;  /* 각 항목 간의 간격 */
+}
