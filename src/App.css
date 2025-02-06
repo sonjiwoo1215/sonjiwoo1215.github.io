@@ -44,7 +44,6 @@ a {
 }
 
 ul {
-  /* list-style-type: none;  */
   padding: 0;
   margin-top: 1rem;  /* 'ul'과 다른 요소들 간의 간격 조정 */
 }
