@@ -7,7 +7,7 @@
   flex-direction: column;  /* 모든 요소를 세로로 정렬 */
 }
 
-#hello {
+#profile {
   display: flex;
   align-items: center;
   justify-content: flex-start;  

@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <div id="hello">
+      <div id="profile">
           <img src={JiwooImage} className="JiwooImage" alt="JiwooImage" />
           <div>
             <h1>안녕하세요, <br />
